@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L100 0L100 100L0 100L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="iconfinder__Mastercard_Logo_1156754">
+    <path d="M0 0L100 0L100 100L0 100L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <g id="Group" transform="translate(1.5625 21.25)">
+        <path d="M18.125 0C11.25 0 5 2.34375 0 6.40625C3.75 10 6.5625 14.5313 8.125 19.6875L45.3125 19.6875C41.7188 8.28125 30.9375 0 18.125 0L18.125 0Z" transform="translate(50 0)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        <path d="M7.5 0C4.0625 3.28125 1.5625 7.1875 0 11.875L15 11.875C13.4375 7.34375 10.9375 3.28125 7.5 0L7.5 0Z" transform="translate(40.9375 7.96875)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        <path d="M27.1875 0C14.5312 0 3.75 8.28125 0 19.6875L37.1875 19.6875C38.75 14.5313 41.5625 10 45.3125 6.40625C40.1563 2.5 33.9063 0 27.1875 0L27.1875 0Z" transform="translate(1.5625 0)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        <path d="M96.875 28.75C96.875 12.9687 84.0625 0 68.125 0C61.25 0 55 2.34375 50 6.40625C53.75 10 56.7187 14.5313 58.125 19.6875L55.7813 19.6875C54.2188 15.1562 51.7188 11.0937 48.2813 7.8125C44.8438 11.0937 42.3438 15.1562 40.7813 19.6875L38.4375 19.6875C40 14.5313 42.8125 10 46.5625 6.40625C41.5625 2.34375 35.4688 0 28.5938 0C12.8125 0 0 12.9687 0 28.75C0 44.5312 12.8125 57.5 28.75 57.5C35.625 57.5 41.875 55 46.7188 51.0938C42.9688 47.5 40.1563 42.9687 38.5938 37.8125L40.9375 37.8125C42.5 42.3438 45 46.4063 48.4375 49.6875C51.875 46.4063 54.5313 42.3437 55.9375 37.8125L58.2812 37.8125C56.7187 42.9687 53.9063 47.5 50.1563 51.0938C55.1563 55.1563 61.4063 57.5 68.2812 57.5C84.0625 57.5 96.875 44.5312 96.875 28.75" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>
