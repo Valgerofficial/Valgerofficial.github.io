@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="ru-Ru"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="ru-Ru"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="ru-Ru"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]>
+<!--><html lang="ru"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>uMockup</title>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="description" content="uMockup">
+	<meta name="author" content="uMockup">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/apps.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- [if lt IE 9]>
+		<script src="libs/html5shiv/es5-shim.min.js"></script>
+		<script src="libs/html5shiv/html5shiv.min.js"></script>
+		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+		<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<!--- Шапка -->
+	<header id="header">
+		
+		<!--- Верхняя часть шапки -->
+		<div class="header__top">
+			<div class="container">
+				<div class="row">
+					<a href="#" class="header__brand"><img src="img/asima_brand.svg" alt=""></a>
+					<nav class="header__navbar">
+						<ul>
+							<li><a href="#">Серверы</a></li>
+							<li><a href="#">Статистика</a></li>
+							<li><a href="#">Сообщество</a></li>
+						</ul>
+					</nav>
+					<div class="header__button">
+						<button class="button button__border">Войти</button>
+						<button class="button button__border">Личный кабинет</button>
+					</div>
+					<div class="header__lang">
+						<a href="#"><img src="img/icon/russia.svg" alt=""></a>
+						<div class="header__lang_list">
+							<a href="#"><img src="img/icon/usa.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--- Средняя часть шапки -->
+		<div class="header__middle">
+			<div class="container">
+				<div class="row">
+					<div class="header__server">
+						<div class="header__server_info">
+							<strong>HighFive</strong>
+							<img src="img/server_status.svg" alt="">
+							<p>1753</p>
+						</div>
+						<div class="header__server_info">
+							<strong>GloryDays</strong>
+							<img src="img/server_status.svg" alt="">
+							<p>1753</p>
+						</div>
+						<div class="header__server_info">
+							<strong>Ertheia</strong>
+							<img src="img/server_status.svg" alt="">
+							<p>1753</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<nav class="header__menu">
+						<ul>
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Описание</a></li>
+							<li><a href="#">Стримеры</a></li>
+							<li><a href="#">Файлы</a></li>
+							<li><a href="#">Подарки</a></li>
+						</ul>
+					</nav>
+					<div class="header__title">
+						<h1>К победам вместе!</h1>
+						<p>Насладись новым клановым PvP- и PvE-контентом в Essence! Сразись с поистине опасными противниками, которых можно победить только сообща.</p>
+						<button class="button button__primary">Играть</button>
+					</div>
+					<div class="header__social">
+						<ul>
+							<li><a href="#"><img src="img/icon/fb.svg" alt=""></a></li>
+							<li><a href="#"><img src="img/icon/yt.svg" alt=""></a></li>
+							<li><a href="#"><img src="img/icon/fb.svg" alt=""></a></li>
+							<li><a href="#"><img src="img/icon/yt.svg" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="header__timer">
+						<div class="header__timer_title">
+							<h4 class="header__timer_line2">Запуск ОБТ</h4>
+							<p>12 апреля в 20:00</p>
+						</div>
+						<div class="header__cklockface">
+							<strong id="header__date"></strong>
+							<p>До старта<br>сервера</p>
+						</div>
+						<div class="header__timer_title">
+							<h4 class="header__timer_line">Запуск ОБТ</h4>
+							<p>12 апреля в 20:00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<!--- Основной контент -->
+	<main id="main">
+
+		<!--- Регистрация и скачивание -->
+		<section class="main__step">
+			<div class="container">
+				<div class="row">
+					<div class="main__step_reg">
+						<h1>Шаг первый.<div class="br">Регистрация аккаунта</div></h1>
+						<p>Сделай свой первый шаг на пути к великому старту.</p>
+						<form action="#" id="main__form">
+							<input type="text" placeholder="Введите Логин">
+							<input type="text" placeholder="Введите Пароль">
+							<input type="text" placeholder="Повторите пароль">
+							<input type="text" placeholder="Ваш E-mail">
+							<input type="text" placeholder="Код с картинки">
+							<label><input class="main__form_check" type="checkbox" name="" value="1"><span>Я согласен с правилами</span></label>
+							<label><input class="main__form_check" type="checkbox" name="" value="1"><span>Я согласен на получение информации</span></label>
+							<button class="button button__secondary">Зарегестрироваться</button>
+						</form>
+					</div>
+					<div class="main__step_down">
+						<h1>Шаг второй.<div class="br">Скачать файлы</div></h1>
+						<p>Скачайте файлы и установите патч для игры на нашем сервере</p>
+							<button class="button button__primary">HighFive</button>
+							<button class="button button__primary">GloryDays</button>
+							<button class="button button__primary">Ertheia</button>
+						<div class="main__step_list">
+							<strong>1. Скачать игровой клиент Lineage 2!</strong>
+							<p>Первым делом, скачайте и установите игровой клент. Рекомендуем использовать именно этот клиент!</p>
+							<button class="button button__secondary">Скачать клиент игры</button>
+							<strong>2. Скачайте наш патч!</strong>
+							<p>Скачайте и установите наш патч в <br>папку с игрой с заменой файлов!</p>
+							<button class="button button__secondary">Патч</button>
+							<button class="button button__secondary">Апдейтер</button>
+							<strong>3. Всё готово, заходи! </strong>
+							<p>Теперь можно зайти в игру <br>и наслаждаться классикой жанра!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--- Информация -->
+		<section class="main__info">
+			<div class="container">
+				<div class="row">
+					<h1>Мир - который всё изменит.</h1>
+ 					<div id="main__info_tabs">
+						<ul class="tabs__nav">
+							<li><a href="#tabs1">Информация</a></li>
+							<li><a href="#tabs2">Игровой процесс</a></li>
+							<li><a href="#tabs3">Рейты сервера</a></li>
+							<li><a href="#tabs4">Умения и классы</a></li>
+							<li><a href="#tabs5">Заточка и атрибут</a></li>
+							<li><a href="#tabs6">Кланы, осады и ТВ</a></li>
+						</ul>
+						<div class="tabs__items">
+							<div class="tabs__item" id="tabs1">
+							<div class="tabs__stats clr">
+								<div class="tabs__stat">
+									<ul>
+										<li><img src="img/etc.png" alt=""><h2>x1</h2><p>exp</p></li>
+										<li><img src="img/etc.png" alt=""><h2>x1</h2><p>exp</p></li>
+										<li><img src="img/etc.png" alt=""><h2>x1</h2><p>exp</p></li>
+										<li><img src="img/etc.png" alt=""><h2>x1</h2><p>exp</p></li>
+										<li><img src="img/etc.png" alt=""><h2>x1</h2><p>exp</p></li>
+										<li><img src="img/etc.png" alt=""><h2>x1</h2><p>exp</p></li>
+										<li><img src="img/etc.png" alt=""><h2>x1</h2><p>exp</p></li>
+										<li><img src="img/etc.png" alt=""><h2>x1</h2><p>exp</p></li>
+									</ul>
+								</div>
+								<div class="flr">
+									<h3>Кратко о концепции сервера!</h3>
+									<p>Мы решили отойти от стандартной концепции PvP сервера и сохранить полюбившиеся всем механики нашей любимой Lineage 2! Массовые сражения за эпических боссов, битвы за выгодные точки фарма, спойл ресурсов и крафт экипировки, ежедневные инстансы, сбалансированная экономика и многое другое.
+									Данный сервер представляет собой симбиоз Craft-PvP и Only-PvP концепций. Цель - собрать игроков с самыми разными предпочтениями в игре и сделать качественный, интересный PvP сервер с альтернативными вариантами развития персонажа. Мы прекрасно понимаем что "гринд" - это неотъемлемая составляющая игры, но мы разбавили скучный и однотипный фарм интересными решениями и нестандартными механиками!</p>	
+								</div>	
+								<div class="fll">
+									<img src="img/hero/human_m.png" alt="">
+									<img src="img/hero/dark_elf_m.png" alt="">
+								</div>	
+							</div>	
+						</div>
+						<div class="tabs__item" id="tabs2">
+							<strong>Игровой процесс</strong>
+						</div>
+						<div class="tabs__item" id="tabs3">
+							<strong>Рейты сервера</strong>
+						</div>
+						<div class="tabs__item" id="tabs4">
+							<strong>Умения и классы</strong>
+						</div>
+						<div class="tabs__item" id="tabs5">
+							<strong>Заточка и атрибут</strong>
+						</div>
+						<div class="tabs__item" id="tabs6">
+							<strong>Кланы, осады и ТВ</strong>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--- Стримы -->
+		<section class="main__stream">
+			<div class="container">
+				<div class="row">
+					<h1>Стримы</h1>
+					<div class="col-4"><div class="stream__item">
+						<iframe src="https://www.youtube.com/embed/LAKfQBNzjbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div></div>
+					<div class="col-4"><div class="stream__item">
+						<iframe src="https://www.youtube.com/embed/LAKfQBNzjbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div></div>
+					<div class="col-4"><div class="stream__item">
+						<iframe src="https://www.youtube.com/embed/LAKfQBNzjbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div></div>
+					<div class="col-4"><div class="stream__item">
+						<iframe src="https://www.youtube.com/embed/LAKfQBNzjbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div></div>
+					<div class="col-4"><div class="stream__item">
+						<iframe src="https://www.youtube.com/embed/LAKfQBNzjbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div></div>
+					<div class="col-4"><div class="stream__item">
+						<iframe src="https://www.youtube.com/embed/LAKfQBNzjbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div></div><br>
+					<button class="button button__primary">Добавить стрим</button>
+				</div>
+			</div>
+		</section>
+		<!--- Мгазин -->
+		<section class="main__store">
+			<div class="container">
+				<div class="row">
+					<h1>Предложения<br>магазина</h1>
+					<div class="owl-carousel owl-theme">
+    					<div class="item">
+    						<img src="img/slide_bg.jpg" alt="">
+    						<span>Плащик</span>
+    						<strong>от 350руб</strong>
+    						<a href="#" class="button button__secondary">Подробнее</a>
+
+    						<div class="item__box">
+    							<h2>Плащик</h2>
+    							<strong>от 350руб</strong>
+    							<p>Просто мегаприкольный плащик, который не даёт статы, вы просто донатите нам 350 рублей.</p>
+    							<a href="#" class="button button__secondary">Подробнее</a>
+    						</div>
+    					</div>
+    					<div class="item">
+    						<div class="item">
+    						<img src="img/slide_bg.jpg" alt="">
+    						<span>Плащик</span>
+    						<strong>от 350руб</strong>
+    						<a href="#" class="button button__secondary">Подробнее</a>
+
+    						<div class="item__box">
+    							<h2>Плащик</h2>
+    							<strong>от 350руб</strong>
+    							<p>Просто мегаприкольный плащик, который не даёт статы, вы просто донатите нам 350 рублей.</p>
+    							<a href="#" class="button button__secondary">Подробнее</a>
+    						</div>
+    					</div>
+    					</div>
+    					<div class="item">
+    						<div class="item">
+    						<img src="img/slide_bg.jpg" alt="">
+    						<span>Плащик</span>
+    						<strong>от 350руб</strong>
+    						<a href="#" class="button button__secondary">Подробнее</a>
+    						<div class="item__box">
+    							<h2>Плащик</h2>
+    							<strong>от 350руб</strong>
+    							<p>Просто мегаприкольный плащик, который не даёт статы, вы просто донатите нам 350 рублей.</p>
+    							<a href="#" class="button button__secondary">Подробнее</a>
+    						</div>
+    					</div>
+    					</div>
+    					<div class="item">
+    						<div class="item">
+    						<img src="img/slide_bg.jpg" alt="">
+    						<span>Плащик</span>
+    						<strong>от 350руб</strong>
+    						<a href="#" class="button button__secondary">Подробнее</a>
+
+    						<div class="item__box">
+    							<h2>Плащик</h2>
+    							<strong>от 350руб</strong>
+    							<p>Просто мегаприкольный плащик, который не даёт статы, вы просто донатите нам 350 рублей.</p>
+    							<a href="#" class="button button__secondary">Подробнее</a>
+    						</div>
+    					</div>
+    					</div>
+    					<div class="item">
+    						<div class="item">
+    						<img src="img/slide_bg.jpg" alt="">
+    						<span>Плащик</span>
+    						<strong>от 350руб</strong>
+    						<a href="#" class="button button__secondary">Подробнее</a>
+
+    						<div class="item__box">
+    							<h2>Плащик</h2>
+    							<strong>от 350руб</strong>
+    							<p>Просто мегаприкольный плащик, который не даёт статы, вы просто донатите нам 350 рублей.</p>
+    							<a href="#" class="button button__secondary">Подробнее</a>
+    						</div>
+    					</div>
+    					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Подвал -->
+	<footer id="footer">
+		<section class="footer__hero">
+			<div class="container">
+				<div class="row">
+					<h1>Классы</h1>
+					<div class="footer__hero_item"><img src="img/hero/elf.png" alt=""><a href="#">Лучник<br>Эура</a></div>
+					<div class="footer__hero_item"><img src="img/hero/human.png" alt=""><a href="#">Рыцарь<br>Сигеля</a></div>
+					<div class="footer__hero_item"><img src="img/hero/dark_elf.png" alt=""><a href="#">Призыватель<br>Веньо</a></div>
+					<div class="footer__hero_item"><img src="img/hero/kamael.png" alt=""><a href="#">Воин<br>Тира</a></div>
+					<div class="footer__hero_item"><img src="img/hero/elf_f.png" alt=""><a href="#">Волшебник<br>Фео</a></div>
+					<div class="footer__hero_item"><img src="img/hero/ork.png" alt=""><a href="#">Заклинатель<br>Иса</a></div>
+					<div class="footer__hero_item"><img src="img/hero/dark_elf2.png" alt=""><a href="#">Разбойник<br>Одала</a></div>
+					<div class="footer__hero_item"><img src="img/hero/gnom.png" alt=""><a href="#">Целитель<br>Альгиза</a></div>
+				</div>
+			</div>
+		</section>
+		<div class="footer__copy">
+			<div class="container">
+				<div class="row">
+					<div class="footer__logo">
+						<strong>powered by</strong>
+						<img src="img/asima_brand.svg" alt="">
+					</div>
+					<div class="footer__text">
+						© 2004—2021 Игровой портал Asima.ws ДАННЫЙ СЕРВЕР ЯВЛЯЕТСЯ ТЕСТОВЫМ ВАРИАНТОМ ИГРЫ LINEAGE II И ПРЕДНАЗНАЧЕН ТОЛЬКО ДЛЯ ОЗНАКОМЛЕНИЯ ИГРОКОВ. ВСЕ ПРАВА ПРИНАДЛЕЖАТ NCSOFT
+					</div>
+					<div class="footer__money">
+						<a href="#"><img src="img/icon/qiwi.svg" alt=""></a>
+						<a href="#"><img src="img/icon/paypal.svg" alt=""></a>
+						<a href="#"><img src="img/icon/visa.svg" alt=""></a>
+						<a href="#"><img src="img/icon/mastercard.svg" alt=""></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+	<div class="hidden">
+		<!-- Скрытый контент -->
+	</div>
+	
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="libs/modernizr/modernizr.min.js"></script>
+	<script src="libs/pjax/jquery.pjax.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="js/public.js"></script>
+</body>
+</html>
